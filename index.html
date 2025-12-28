@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A.C.O.A LLC | Prescott Valley Asphalt & Construction</title>
+  <meta name="description" content="A.C.O.A LLC provides professional asphalt paving, seal coating, concrete, retaining walls, septic systems, and pavers in Prescott Valley, Arizona." />
+
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+  <style>
+    :root {
+      --dark: #0b1220;
+      --gray: #1f2937;
+      --accent: #f59e0b;
+      --light: #f9fafb;
+      --muted: #6b7280;
+    }
+
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; background: var(--light); color:#111827; line-height:1.65; }
+    header { background: linear-gradient(180deg, rgba(0,0,0,.65), rgba(0,0,0,.65)), url('https://images.unsplash.com/photo-1605130284535-11dd9eedc58a?auto=format&fit=crop&w=1600&q=80'); background-size: cover; background-position: center; color:white; padding:90px 20px; }
+    .container { max-width:1200px; margin:auto; padding:0 20px; }
+    nav { display:flex; justify-content:space-between; align-items:center; margin-bottom:60px; }
+    nav strong { font-size:1.4rem; letter-spacing:.5px; }
+    nav a { color:#e5e7eb; text-decoration:none; margin-left:22px; font-weight:500; }
+    .hero h1 { font-size: clamp(2.5rem,4vw,3.6rem); margin:0 0 14px; }
+    .hero p { max-width:680px; font-size:1.05rem; color:#e5e7eb; }
+    section { padding:80px 0; }
+    h2 { font-size:2.1rem; margin-bottom:10px; }
+    .muted { color: var(--muted); }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(250px,1fr)); gap:28px; margin-top:40px; }
+    .card { background:white; border-radius:18px; padding:28px; box-shadow:0 12px 30px rgba(0,0,0,.08); }
+    .card h3 { margin-top:0; }
+    .split { display:grid; grid-template-columns:1.1fr .9fr; gap:60px; align-items:center; }
+    @media(max-width:900px){ .split{ grid-template-columns:1fr; } }
+    .contact { background: var(--gray); color:white; }
+    .contact a { color: var(--accent); font-weight:700; text-decoration:none; }
+    footer { background:#020617; color:#9ca3af; text-align:center; padding:26px 20px; font-size:.9rem; }
+
+    /* Swiper styles */
+    .swiper { width:100%; height:250px; margin-top:15px; }
+    .swiper-slide { text-align:center; display:flex; justify-content:center; align-items:center; background:#f3f4f6; border-radius:12px; overflow:hidden; }
+    .swiper-slide img { width:100%; height:100%; object-fit:cover; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <nav>
+      <strong>A.C.O.A LLC</strong>
+      <div>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+    <div class="hero">
+      <h1>Prescott Valley Asphalt & Construction</h1>
+      <p>Professional paving and construction services built to last. Serving Prescott Valley and surrounding Arizona communities.</p>
+    </div>
+  </div>
+</header>
+
+<section id="about">
+  <div class="container split">
+    <div>
+      <h2>Local Experience You Can Trust</h2>
+      <p class="muted">Residential & commercial services</p>
+      <p>A.C.O.A LLC is a locally operated asphalt and construction company serving Prescott Valley, Arizona. We specialize in durable, long‑term solutions using proven materials and experienced crews.</p>
+      <p>From paving and concrete to retaining walls and septic systems, our focus is quality workmanship, clear communication, and dependable scheduling.</p>
+    </div>
+    <div class="card">
+      <h3>Service Area</h3>
+      <p>Prescott Valley</p>
+      <p>Prescott</p>
+      <p>Chino Valley</p>
+      <p>Surrounding Arizona Areas</p>
+    </div>
+  </div>
+</section>
+
+<section id="services">
+  <div class="container">
+    <h2>Our Services</h2>
+    <p class="muted">Complete paving & construction solutions</p>
+    <div class="grid">
+      <!-- Asphalt Paving -->
+      <div class="card">
+        <h3>Asphalt Paving</h3>
+        <p>Driveways, roads, and parking lots.</p>
+        <div class="swiper asphalt-slider"><div class="swiper-wrapper"></div><div class="swiper-pagination"></div></div>
+      </div>
+      <!-- Seal Coating -->
+      <div class="card">
+        <h3>Seal Coating</h3>
+        <p>Extend asphalt life and improve appearance.</p>
+        <div class="swiper seal-slider"><div class="swiper-wrapper"></div><div class="swiper-pagination"></div></div>
+      </div>
+      <!-- Concrete -->
+      <div class="card">
+        <h3>Concrete</h3>
+        <p>Flatwork, pads, and structural concrete.</p>
+        <div class="swiper concrete-slider"><div class="swiper-wrapper"></div><div class="swiper-pagination"></div></div>
+      </div>
+      <!-- Retaining Walls -->
+      <div class="card">
+        <h3>Retaining Walls</h3>
+        <p>Engineered for strength and longevity.</p>
+        <div class="swiper walls-slider"><div class="swiper-wrapper"></div><div class="swiper-pagination"></div></div>
+      </div>
+      <!-- Septic Systems -->
+      <div class="card">
+        <h3>Septic Systems</h3>
+        <p>Installation and site preparation.</p>
+        <div class="swiper septic-slider"><div class="swiper-wrapper"></div><div class="swiper-pagination"></div></div>
+      </div>
+      <!-- Pavers -->
+      <div class="card">
+        <h3>Pavers</h3>
+        <p>Custom hardscape solutions.</p>
+        <div class="swiper pavers-slider"><div class="swiper-wrapper"></div><div class="swiper-pagination"></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="container">
+    <h2>Contact A.C.O.A LLC</h2>
+    <p><strong>Owner – Marvin Lucero:</strong> <a href="tel:19285335454">(928) 533‑5454</a></p>
+    <p><strong>Superintendent – Marco Cantabrana:</strong> <a href="tel:19286009806">(928) 600‑9806</a></p>
+    <p class="muted">Prescott Valley, Arizona</p>
+  </div>
+</section>
+
+<footer>© 2025 A.C.O.A LLC • Prescott Valley, AZ</footer>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script>
+  function initSwiper(className, images){
+    const slider = document.querySelector(className+' .swiper-wrapper');
+    images.forEach(img => {
+      const slide = document.createElement('div');
+      slide.className = 'swiper-slide';
+      slide.innerHTML = `<img src="${img}" alt="">`;
+      slider.appendChild(slide);
+    });
+    return new Swiper(className, { loop:true, pagination:{el:'.swiper-pagination',clickable:true}, slidesPerView:1, spaceBetween:10 });
+  }
+
+const asphaltImages = [
+  'images/asphalt/asphalt.jpeg',
+  'images/asphalt/asphalt1.jpeg',
+  'images/asphalt/asphalt2.jpeg',
+  'images/asphalt/asphalt3.jpeg',
+  'images/asphalt/asphalt4.jpeg',
+  'images/asphalt/asphalt7.jpeg',
+  'images/asphalt/asphalt10.jpeg'
+];
+
+const sealImages = [
+  'images/seal/coat1.jpg',
+  'images/seal/coat2.jpg',
+  'images/seal/coat3.jpeg'
+];
+
+const concreteImages = [
+  'images/concrete/concrete1.jpeg',
+  'images/concrete/concrete2.jpeg',
+  'images/concrete/concrete3.jpg',
+  'images/concrete/concrete4.jpg',
+  'images/concrete/concrete5.jpg',
+  'images/concrete/concrete6.jpeg',
+  'images/concrete/concrete7.jpeg'
+];
+
+const wallsImages = [
+  'images/walls/walls1.jpeg',
+  'images/walls/walls2.jpeg'
+];
+
+const septicImages = [
+  'images/septic/septic1.jpeg',
+  'images/septic/septic2.jpg',
+  'images/septic/septic3.jpeg',
+  'images/septic/septic4.jpeg'
+];
+
+const paversImages = [
+  'images/pavers/pavers1.jpg',
+  'images/pavers/pavers2.jpg',
+  'images/pavers/pavers3.jpg'
+];
+initSwiper('.asphalt-slider', asphaltImages);
+initSwiper('.seal-slider', sealImages);
+initSwiper('.concrete-slider', concreteImages);
+initSwiper('.walls-slider', wallsImages);
+initSwiper('.septic-slider', septicImages);
+initSwiper('.pavers-slider', paversImages);
+
+</script>
+
+</body>
+</html>
